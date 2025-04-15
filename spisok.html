@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мої улюблені речі</title>
+    <style>
+        body {
+            background-color: #000000;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color:rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2 {
+            color: #0d00ff;
+        }
+        ul {
+            color: white;
+        }
+        ol {
+            color:white;
+     
+        }
+        footer{
+            color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            color:white;
+        }
+        .image-container {
+        display: flex; 
+        justify-content: center; 
+        gap: 10px; 
+        float: right; 
+        margin-left: 10px;
+}
+
+        .image-container img {
+        width: 275px; 
+        height: auto; 
+        border: 5px solid rgb(255, 255, 255);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мої улюблені речі</h1>
+    </header>
+        <h2>Улюблені фільми та серіали</h2>
+        <ol>
+            <li>Dexter</li>
+            <li>Interstellar</li>
+            <li>Hacksaw Ridge</li>
+            <li>The Walking Dead</li>
+            <li>All Quiet on the Western Front</li>
+        </ol>
+        <div class="image-container">
+        <img src="C:\yakubyak\a1.jpg" alt="Фільми та серіали">
+        <img src="C:\yakubyak\a2.jpg" alt="Фільми та серіали">
+        <img src="C:\yakubyak\a3.jpg" alt="Фільми та серіали">
+        <img src="C:\yakubyak\a4.jpg" alt="Фільми та серіали">
+        <img src="C:\yakubyak\a5.jpg" alt="Фільми та серіали">
+        </div>
+        <h2>Улюблені книги</h2>
+        <ul>
+            <li>Dexter (Jeff Lindsay) </li>
+            <li>Shutter Island (Dennis Lehane)</li>
+            <li>The Shining (Stiven King) </li>
+            <li>Redemption at Hacksaw Ridge (Desmond Doss)</li>
+            <li>Mysterious Island (Jules Verne)</li>
+        </ul>
+        <div class="image-container">
+        <img src="C:\yakubyak\b1.jpg" alt="Книги">
+        <img src="C:\yakubyak\b2.jpg" alt="Книги">
+        <img src="C:\yakubyak\b3.jpg" alt="Книги">
+        <img src="C:\yakubyak\b4.jpg" alt="Книги">
+        <img src="C:\yakubyak\b5.jpg" alt="Книги">
+        </div>      
+   
+
+        <h2>Улюблені музичні гурти</h2>
+        <ul>
+            <li>Foo Figthers</li>
+            <li>Provoker</li>
+            <li>Radiohead</li>
+            <li>Deftones</li>
+            <li>Vacations</li>
+        </ul>
+        <div class="image-container">
+            <img src="C:\yakubyak\c1.jpg" alt="Книги">
+            <img src="C:\yakubyak\c2.jpg" alt="Книги">
+            <img src="C:\yakubyak\c3.jpg" alt="Книги">
+            <img src="C:\yakubyak\c4.jpg" alt="Книги">
+            <img src="C:\yakubyak\c5.jpg" alt="Книги">
+            </div>      
+  
+    <a href="avtobiogr.html">Моя Автобіографія</a>
+    <a href="hobby.html"><p>Мої хобі</a></p>
+    <a href="index.html">Мій особистий сайт</a>
+    <a href="table.html"><p>Розклад занять</a></p>
+    <script>
+        // Create a button to change the background color
+        let colorChangeButton = document.createElement('button');
+        colorChangeButton.textContent = "Змінити колір фону";
+        document.body.appendChild(colorChangeButton);
+    
+        // Add an event listener to the button
+        colorChangeButton.addEventListener('click', () => {
+            // Change the background color of the body
+            document.body.style.backgroundColor = 
+                document.body.style.backgroundColor === 'black' ? 'red' : 'black';
+        });
+    </script>
+    <footer>
+        <p>&copy; 2025 Якуб'як Андрій. Всі права захищені.</p>
+    </footer>
+</body>
+</html>

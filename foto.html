@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мої фотографії</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000;
+            color: white;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid white;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover img {
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+        .link {
+            margin-top: 20px;
+        }
+        .desc {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Галерея фотографій</h2>
+    <table>
+        <tr>
+            <td>
+                <a href="C:\yakubyak\10.jpg" target="_blank">
+                    <img src="C:\yakubyak\10.jpg" alt="Фото 1">
+                </a>
+                <div class="desc">Фото з подорожі</div>
+            </td>
+            <td>
+                <a href="C:\yakubyak\10.jpg" target="_blank">
+                    <img src="C:\yakubyak\10.jpg" alt="Фото 2">
+                </a>
+                <div class="desc">Захід сонця</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="images/photo3_large.jpg" target="_blank">
+                    <img src="images/photo3_small.jpg" alt="Фото 3">
+                </a>
+                <div class="desc">В горах</div>
+            </td>
+            <td>
+                <a href="images/photo4_large.jpg" target="_blank">
+                    <img src="images/photo4_small.jpg" alt="Фото 4">
+                </a>
+                <div class="desc">На морі</div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="link">
+        <a href="table.html">← Назад до розкладу</a>
+    </div>
+</body>
+</html>
